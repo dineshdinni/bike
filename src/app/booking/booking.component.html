@@ -1,0 +1,58 @@
+
+<body style="background-color:lightyellow;">
+
+    
+    <h1> Booking options</h1>
+<br>
+<fieldset >
+    
+
+    <br>
+    <label>First name:</label>
+    <input type="name" name="FIRST NAME" placeholder="Enter First name" value="" id="name" [(ngModel)]="name">
+  
+    <div>
+    <br>
+    <label>Adhar number:</label>
+    <input type="number" name="Adhar number" placeholder="Enter Adhar" value="" class="adhar" id="adhar" [(ngModel)]="adhar">
+    <div></div>
+    <br>
+    <label>Driving Licence:</label>
+    <input type="name" name="Driving Licence" placeholder="Enter Driving Licence" value="" id="drivinglicence" [(ngModel)]="drivinglicence">
+</div>
+<div>
+    <br>
+    </div>
+    <div>
+        <br>
+    <label>EMAIL ID      :</label>
+    <input type="name" name="EMAIL ID" placeholder="Enter mail id" value="" id="email" [(ngModel)]="email">
+
+        <label>Contact number      :</label>
+        <input type="number" name="CONTACT NUMBER" placeholder="Enter mobile" class="contact"  value="" id="contact" [(ngModel)]="contact">
+    </div>
+    <div>
+        <br>
+    </div>
+    <div>
+        <br>
+        <label>D O B       :</label>
+        <input type="date" id=" dob" value="" [(ngModel)]="dob">
+    </div>
+    <br>
+    <label>GENDER</label>
+    <select>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Others</option>
+    </select>
+    <label>time of booking</label>
+    <input type="time" id="time" value="" [(ngModel)]="time">
+    </fieldset>
+    <br>
+
+    <div id="sub">
+        <input type="button" value="submit" (click)="Signup()">
+    </div>
+    </body>
+    

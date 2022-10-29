@@ -1,0 +1,115 @@
+h1{
+    text-align: center;
+    background-color: red;
+    color: white;
+    opacity: 85%;
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    
+}
+.cars{
+    margin-top: 60px;
+}
+
+#car1{
+    float: left;
+    margin-left: 300px;
+    margin-top: 40px;
+    background-color: bisque;
+    }
+#car1{
+    transition: transform 2s;
+}
+#car1:hover{
+    transform: scale(1.05);
+}
+#car2{
+    
+    float: right;
+    margin-right: 400px;
+    margin-top: 40px;
+    background-color: bisque;
+}
+#car2{
+    transition: transform 2s;
+}
+#car2:hover{
+    transform: scale(1.05);
+}
+#car3{
+    float: left;
+    margin-left: 300px;
+    margin-top: 40px;
+    background-color: bisque;
+}
+#car3{
+    transition: transform 2s;
+}
+#car3:hover{
+    transform: scale(1.05);
+}
+#car4{
+    float: right;
+    margin-right: 400px;
+    margin-top: 40px;
+    background-color: bisque;
+    
+}
+#car4{
+    transition: transform 2s;
+
+}
+#car4:hover{
+    transform: scale(1.05);
+}
+#car5{
+    float: left;
+    margin-left: 300px;
+    margin-top: 40px;
+    background-color: bisque;
+}
+#car5{
+    transition: transform 2s;
+}
+#car5:hover{
+    transform: scale(1.05);
+}
+#car6{
+    float: right;
+    margin-right: 400px;
+    margin-top: 40px;
+    background-color: bisque;
+}
+#car6{
+    transition: transform 2s;
+}
+#car6:hover{
+    transform: scale(1.05);
+}
+#car7{
+    float: left;
+    margin-left: 300px;
+    margin-top: 40px;
+    background-color: bisque;
+}
+#car7{
+    transition: transform 2s;
+}
+#car7:hover{
+    transform: scale(1.05);
+}
+#car8{
+    float: right;
+    margin-right: 400px;
+    margin-top: 40px;
+    background-color: bisque;
+}
+#car8{
+    transition: transform 2s;
+}
+#car8:hover{
+    transform: scale(1.05);
+}
